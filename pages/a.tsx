@@ -16,7 +16,7 @@ interface Data {
 
 // Object { request_id: "Zvv36ZjTy9YOOdwz", status: "pending", transaction_pixel: "<iframe src='https://thentic.tech/request?id=Zvv36ZjTy9YOOdwz' width=1 height=1 scrolling=no frameborder=0></iframe>", transaction_url: "https://thentic.tech/request?id=Zvv36ZjTy9YOOdwz" }
 
-function Home({ exploreData }: Props): JSX.Element {
+function A({ exploreData }: Props): JSX.Element {
 
   console.log(exploreData);
 
@@ -154,7 +154,7 @@ function Home({ exploreData }: Props): JSX.Element {
   )
 }
 
-export default Home
+export default A
 
 export const getServerSideProps: GetServerSideProps = async () => {
 
